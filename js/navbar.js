@@ -1,2 +1,5 @@
-document.getElementById('navbar').innerHTML =
-    '<object type="text/html" data="navbar.html" ></object>';
+fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+    });
