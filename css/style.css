@@ -27,10 +27,12 @@ nav a {
     text-align: center; /* Centered text */
     padding: 14px 16px; /* Add some padding */
     text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition */
 }
 
 /* Change color when hovering over a link */
 nav a:hover {
     background-color: #ddd; /* Light grey background */
     color: black; /* Black text */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition */
 }
